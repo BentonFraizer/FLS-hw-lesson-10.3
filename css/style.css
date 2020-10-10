@@ -453,6 +453,10 @@ button:hover {
 	text-decoration: underline;
 }
 
+input {
+	border: 2px solid transparent;
+}
+
 input:focus {	
 	outline-color: #fff;
 	border: 2px solid #fff;
