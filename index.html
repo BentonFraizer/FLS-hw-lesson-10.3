@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ДЗ к уроку №9. CSS позиционирование</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h2 class="subtitle passrecovery">
+          Восстановление пароля
+        </h2>
+        <form action="#" class="form1">
+          <p class="enteremail">
+            Введите Email, на него будет выслан новый пароль
+          </p>
+          <div class="form__item">
+            <input id="useremail" autocomplete="off" name="form[]" placeholder="Почта*" class="input" type="email">
+          </div>
+          <p class="returntoautoriz">
+            <span><a href="#">Вернуться в форму авторизации</a></span>
+          </p>
+          <div class="form__item">
+            <button class="button" autofocus type="submit">Отправить</button>
+          </div>
+          <p class="warning">
+            * Если вы не получили письмо с паролем, проверьте папку Спам.
+          </p>
+          <p class="withoutaccount"> 
+            У вас нет аккаунта?<a href="#">Регистрация</a>
+          </p>
+        </form>
+        <div class="line"></div>
+        <h2 class="subtitle enter">Вход</h2>
+        <form action="#" class="form2">
+          <div class="form__item">
+            <input id="useremail" autocomplete="off" name="form[]" placeholder="Почта*" class="input" type="email">
+          </div>
+          <div class="form__item">
+            <input id="userpass" autocomplete="off" name="form[]" placeholder="Пароль*" class="input" type="text">
+          </div>
+          <div class="lineoftext">
+            <div class="checkbox">
+              <input id="checkMemory" name="form[]" value="1" class="checkbox__item" type="checkbox">
+              <label class="checkbox__label" for="checkMemory">Запомнить меня</label>
+            </div>
+            <div class="fogetpass">
+              <a href="#">Забыли пароль?</a>
+            </div>
+          </div>
+          <button class="toenter">Войти</button>
+          <p class="enterlike">
+            Войти через:
+          </p>
+          <ul class="imgbox__list">
+            <li class="imgbox__item">
+              <a href="#">
+                <img src="./img/vk.png" alt="иконка ВК">
+              </a>
+            </li>
+            <li class="imgbox__item">
+              <a href="#">
+                <img src="./img/facebook.png" alt="иконка facebook">
+              </a>
+            </li>
+            <li class="imgbox__item">
+              <a href="#">
+                <img src="./img/ok.png" alt="иконка одкноклассники">
+              </a>
+            </li>
+          </ul>
+          <p class="withoutaccount"> 
+            У вас нет аккаунта?<a href="#">Регистрация</a>
+          </p>
+        </form>
+        <div class="line"></div>
+        <h2 class="subtitle registration">
+          Регистрация
+        </h2>
+        <form class="form3">
+          <div class="form__item">
+            <input id="username" autocomplete="off" name="form[]" placeholder="Имя*" class="input" type="text">
+          </div>
+          <div class="form__item">
+            <input id="usersoname" autocomplete="off" name="form[]" placeholder="Фамилия*" class="input" type="text">
+          </div>
+          <div class="form__item">
+            <input id="userlogin" autocomplete="off" name="form[]" placeholder="Логин*" class="input" type="text">
+          </div>
+          <div class="form__item">
+            <input id="useremail" require autocomplete="off" name="form[]" placeholder="Почта*" class="input" type="email">
+          </div>
+          <div class="form__item">
+            <input id="userpass" autocomplete="off" name="form[]" placeholder="Пароль*" class="input" type="password">
+          </div>
+          <div class="form__item">
+            <input id="userrepeatpass" autocomplete="off" name="form[]" placeholder="Повторите пароль*" class="input" type="password">
+          </div>
+          <div class="options">
+            <div class="options__item">
+              <input checked id="radioMale" name="sex" value="male" class="options__input" type="radio">
+              <label class="options__label" for="radioMale">Мужчина</label>
+            </div>
+            <div class="options__item">
+              <input id="radioFemale" name="sex" value="female" class="options__input" type="radio">
+              <label class="options__label" for="radioFemale">Женщина</label>
+            </div>
+          </div>
+          <div class="checkbox">
+            <input id="checkAgree" name="form[]" value="1" class="checkbox__item" type="checkbox">
+            <label class="checkbox__label" for="checkAgree">Я согласен с <span><a href="#">Условия и правила</a></span></label>
+          </div>
+          <button class="registrationbtn">Регистрация</button>
+          <p class="haveakk" type="submit">У вас есть аккаунт? <span><a href="#">Войти</a></span></p>
+        </form>
+        <div class="line"></div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body>
+</html>
