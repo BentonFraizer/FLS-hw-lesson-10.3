@@ -194,7 +194,6 @@ button {
 
 button:hover {
 	background-color: #335bb7;
-	box-shadow: 5px 5px 10px #FFF, -5px -5px 10px #FFF,5px -5px 10px #FFF,-5px 5px 10px #FFF;
 }
 
 .warning {
@@ -383,8 +382,8 @@ button:hover {
 .options__label::after {
 	transform: scale(1);
 	transition: 0.3s;
-	width: 0;
-	height: 0;
+	width: 12px;
+	height: 12px;
 	background-color: #337AB7;
 	border-radius: 5px;
 	position: absolute;
@@ -395,8 +394,6 @@ button:hover {
 
 .options__input:checked + .options__label::after {
 	transform: scale(1);
-	width: 12px;
-	height: 12px;
 }
 
 .form3 .checkbox {
